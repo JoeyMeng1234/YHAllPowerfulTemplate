@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09BBDCED1BE77B5D00E18061 /* CTPersistanceConfiguration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 09BBDCEC1BE77B5D00E18061 /* CTPersistanceConfiguration.plist */; settings = {ASSET_TAGS = (); }; };
+		09BBDCED1BE77B5D00E18061 /* CTPersistanceConfiguration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 09BBDCEC1BE77B5D00E18061 /* CTPersistanceConfiguration.plist */; };
 		09BBDCF11BE77F8B00E18061 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 09BBDCF01BE77F8B00E18061 /* libsqlite3.0.tbd */; };
-		09BBDCF61BE782C100E18061 /* CTViewControllerIntercepter.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BBDCF51BE782C100E18061 /* CTViewControllerIntercepter.m */; settings = {ASSET_TAGS = (); }; };
-		09BBDCFD1BE7837500E18061 /* UIView+HandyConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BBDCFC1BE7837500E18061 /* UIView+HandyConstraints.m */; settings = {ASSET_TAGS = (); }; };
-		09BBDD001BE7876C00E18061 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BBDCFF1BE7876C00E18061 /* UIView+Extension.m */; settings = {ASSET_TAGS = (); }; };
-		09BBDD071BE7941E00E18061 /* UIViewController+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BBDD061BE7941E00E18061 /* UIViewController+HUD.m */; settings = {ASSET_TAGS = (); }; };
-		09BBDD0A1BE7948000E18061 /* NSDate+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BBDD091BE7948000E18061 /* NSDate+Category.m */; settings = {ASSET_TAGS = (); }; };
-		09BBDD0D1BE7948F00E18061 /* NSDateFormatter+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BBDD0C1BE7948F00E18061 /* NSDateFormatter+Category.m */; settings = {ASSET_TAGS = (); }; };
+		09BBDCF61BE782C100E18061 /* CTViewControllerIntercepter.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BBDCF51BE782C100E18061 /* CTViewControllerIntercepter.m */; };
+		09BBDCFD1BE7837500E18061 /* UIView+HandyConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BBDCFC1BE7837500E18061 /* UIView+HandyConstraints.m */; };
+		09BBDD001BE7876C00E18061 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BBDCFF1BE7876C00E18061 /* UIView+Extension.m */; };
+		09BBDD071BE7941E00E18061 /* UIViewController+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BBDD061BE7941E00E18061 /* UIViewController+HUD.m */; };
+		09BBDD0A1BE7948000E18061 /* NSDate+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BBDD091BE7948000E18061 /* NSDate+Category.m */; };
+		09BBDD0D1BE7948F00E18061 /* NSDateFormatter+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BBDD0C1BE7948F00E18061 /* NSDateFormatter+Category.m */; };
 		09EFB4971BDF595E002DFDCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB4961BDF595E002DFDCE /* main.m */; };
 		09EFB49A1BDF595E002DFDCE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB4991BDF595E002DFDCE /* AppDelegate.m */; };
 		09EFB49D1BDF595E002DFDCE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB49C1BDF595E002DFDCE /* ViewController.m */; };
@@ -23,31 +23,31 @@
 		09EFB4A51BDF595E002DFDCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09EFB4A31BDF595E002DFDCE /* LaunchScreen.storyboard */; };
 		09EFB4B01BDF595E002DFDCE /* YHAllPowerfulTemplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB4AF1BDF595E002DFDCE /* YHAllPowerfulTemplateTests.m */; };
 		09EFB4BB1BDF595E002DFDCE /* YHAllPowerfulTemplateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB4BA1BDF595E002DFDCE /* YHAllPowerfulTemplateUITests.m */; };
-		09EFB5081BDF5E9E002DFDCE /* AIFCommonParamsGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB4CF1BDF5E9E002DFDCE /* AIFCommonParamsGenerator.m */; settings = {ASSET_TAGS = (); }; };
-		09EFB5091BDF5E9E002DFDCE /* AIFRequestGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB4D11BDF5E9E002DFDCE /* AIFRequestGenerator.m */; settings = {ASSET_TAGS = (); }; };
-		09EFB50A1BDF5E9E002DFDCE /* AIFSignatureGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB4D31BDF5E9E002DFDCE /* AIFSignatureGenerator.m */; settings = {ASSET_TAGS = (); }; };
-		09EFB50B1BDF5E9E002DFDCE /* AIFUDIDGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB4D51BDF5E9E002DFDCE /* AIFUDIDGenerator.m */; settings = {ASSET_TAGS = (); }; };
-		09EFB50C1BDF5E9E002DFDCE /* NSArray+AXNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB4D81BDF5E9E002DFDCE /* NSArray+AXNetworkingMethods.m */; settings = {ASSET_TAGS = (); }; };
-		09EFB50D1BDF5E9E002DFDCE /* NSDictionary+AXNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB4DA1BDF5E9E002DFDCE /* NSDictionary+AXNetworkingMethods.m */; settings = {ASSET_TAGS = (); }; };
-		09EFB50E1BDF5E9E002DFDCE /* NSMutableString+AXNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB4DC1BDF5E9E002DFDCE /* NSMutableString+AXNetworkingMethods.m */; settings = {ASSET_TAGS = (); }; };
-		09EFB50F1BDF5E9E002DFDCE /* NSObject+AXNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB4DE1BDF5E9E002DFDCE /* NSObject+AXNetworkingMethods.m */; settings = {ASSET_TAGS = (); }; };
-		09EFB5101BDF5E9E002DFDCE /* NSString+AXNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB4E01BDF5E9E002DFDCE /* NSString+AXNetworkingMethods.m */; settings = {ASSET_TAGS = (); }; };
-		09EFB5111BDF5E9E002DFDCE /* NSURLRequest+AIFNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB4E21BDF5E9E002DFDCE /* NSURLRequest+AIFNetworkingMethods.m */; settings = {ASSET_TAGS = (); }; };
-		09EFB5121BDF5E9E002DFDCE /* UIDevice+IdentifierAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB4E41BDF5E9E002DFDCE /* UIDevice+IdentifierAddition.m */; settings = {ASSET_TAGS = (); }; };
-		09EFB5131BDF5E9E002DFDCE /* AIFApiProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB4E71BDF5E9E002DFDCE /* AIFApiProxy.m */; settings = {ASSET_TAGS = (); }; };
-		09EFB5141BDF5E9E002DFDCE /* AIFAppContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB4E91BDF5E9E002DFDCE /* AIFAppContext.m */; settings = {ASSET_TAGS = (); }; };
-		09EFB5151BDF5E9E002DFDCE /* AIFURLResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB4EB1BDF5E9E002DFDCE /* AIFURLResponse.m */; settings = {ASSET_TAGS = (); }; };
-		09EFB5161BDF5E9E002DFDCE /* AIFCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB4EE1BDF5E9E002DFDCE /* AIFCache.m */; settings = {ASSET_TAGS = (); }; };
-		09EFB5171BDF5E9E002DFDCE /* AIFCachedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB4F01BDF5E9E002DFDCE /* AIFCachedObject.m */; settings = {ASSET_TAGS = (); }; };
-		09EFB5181BDF5E9E002DFDCE /* AIFCityListManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB4F31BDF5E9E002DFDCE /* AIFCityListManager.m */; settings = {ASSET_TAGS = (); }; };
-		09EFB5191BDF5E9E002DFDCE /* AIFLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB4F51BDF5E9E002DFDCE /* AIFLocationManager.m */; settings = {ASSET_TAGS = (); }; };
-		09EFB51A1BDF5E9E002DFDCE /* AIFPListManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB4F81BDF5E9E002DFDCE /* AIFPListManager.m */; settings = {ASSET_TAGS = (); }; };
-		09EFB51B1BDF5E9E002DFDCE /* AIFLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB4FB1BDF5E9E002DFDCE /* AIFLogger.m */; settings = {ASSET_TAGS = (); }; };
-		09EFB51C1BDF5E9E002DFDCE /* AIFLoggerConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB4FD1BDF5E9E002DFDCE /* AIFLoggerConfiguration.m */; settings = {ASSET_TAGS = (); }; };
-		09EFB51D1BDF5E9E002DFDCE /* RTAPIBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB4FF1BDF5E9E002DFDCE /* RTAPIBaseManager.m */; settings = {ASSET_TAGS = (); }; };
-		09EFB51E1BDF5E9E002DFDCE /* AIFService.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB5021BDF5E9E002DFDCE /* AIFService.m */; settings = {ASSET_TAGS = (); }; };
-		09EFB51F1BDF5E9E002DFDCE /* AIFServiceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB5041BDF5E9E002DFDCE /* AIFServiceFactory.m */; settings = {ASSET_TAGS = (); }; };
-		09EFB5201BDF5E9E002DFDCE /* AIFServiceGoogleMapDirections.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB5071BDF5E9E002DFDCE /* AIFServiceGoogleMapDirections.m */; settings = {ASSET_TAGS = (); }; };
+		09EFB5081BDF5E9E002DFDCE /* AIFCommonParamsGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB4CF1BDF5E9E002DFDCE /* AIFCommonParamsGenerator.m */; };
+		09EFB5091BDF5E9E002DFDCE /* AIFRequestGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB4D11BDF5E9E002DFDCE /* AIFRequestGenerator.m */; };
+		09EFB50A1BDF5E9E002DFDCE /* AIFSignatureGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB4D31BDF5E9E002DFDCE /* AIFSignatureGenerator.m */; };
+		09EFB50B1BDF5E9E002DFDCE /* AIFUDIDGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB4D51BDF5E9E002DFDCE /* AIFUDIDGenerator.m */; };
+		09EFB50C1BDF5E9E002DFDCE /* NSArray+AXNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB4D81BDF5E9E002DFDCE /* NSArray+AXNetworkingMethods.m */; };
+		09EFB50D1BDF5E9E002DFDCE /* NSDictionary+AXNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB4DA1BDF5E9E002DFDCE /* NSDictionary+AXNetworkingMethods.m */; };
+		09EFB50E1BDF5E9E002DFDCE /* NSMutableString+AXNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB4DC1BDF5E9E002DFDCE /* NSMutableString+AXNetworkingMethods.m */; };
+		09EFB50F1BDF5E9E002DFDCE /* NSObject+AXNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB4DE1BDF5E9E002DFDCE /* NSObject+AXNetworkingMethods.m */; };
+		09EFB5101BDF5E9E002DFDCE /* NSString+AXNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB4E01BDF5E9E002DFDCE /* NSString+AXNetworkingMethods.m */; };
+		09EFB5111BDF5E9E002DFDCE /* NSURLRequest+AIFNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB4E21BDF5E9E002DFDCE /* NSURLRequest+AIFNetworkingMethods.m */; };
+		09EFB5121BDF5E9E002DFDCE /* UIDevice+IdentifierAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB4E41BDF5E9E002DFDCE /* UIDevice+IdentifierAddition.m */; };
+		09EFB5131BDF5E9E002DFDCE /* AIFApiProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB4E71BDF5E9E002DFDCE /* AIFApiProxy.m */; };
+		09EFB5141BDF5E9E002DFDCE /* AIFAppContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB4E91BDF5E9E002DFDCE /* AIFAppContext.m */; };
+		09EFB5151BDF5E9E002DFDCE /* AIFURLResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB4EB1BDF5E9E002DFDCE /* AIFURLResponse.m */; };
+		09EFB5161BDF5E9E002DFDCE /* AIFCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB4EE1BDF5E9E002DFDCE /* AIFCache.m */; };
+		09EFB5171BDF5E9E002DFDCE /* AIFCachedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB4F01BDF5E9E002DFDCE /* AIFCachedObject.m */; };
+		09EFB5181BDF5E9E002DFDCE /* AIFCityListManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB4F31BDF5E9E002DFDCE /* AIFCityListManager.m */; };
+		09EFB5191BDF5E9E002DFDCE /* AIFLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB4F51BDF5E9E002DFDCE /* AIFLocationManager.m */; };
+		09EFB51A1BDF5E9E002DFDCE /* AIFPListManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB4F81BDF5E9E002DFDCE /* AIFPListManager.m */; };
+		09EFB51B1BDF5E9E002DFDCE /* AIFLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB4FB1BDF5E9E002DFDCE /* AIFLogger.m */; };
+		09EFB51C1BDF5E9E002DFDCE /* AIFLoggerConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB4FD1BDF5E9E002DFDCE /* AIFLoggerConfiguration.m */; };
+		09EFB51D1BDF5E9E002DFDCE /* RTAPIBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB4FF1BDF5E9E002DFDCE /* RTAPIBaseManager.m */; };
+		09EFB51E1BDF5E9E002DFDCE /* AIFService.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB5021BDF5E9E002DFDCE /* AIFService.m */; };
+		09EFB51F1BDF5E9E002DFDCE /* AIFServiceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB5041BDF5E9E002DFDCE /* AIFServiceFactory.m */; };
+		09EFB5201BDF5E9E002DFDCE /* AIFServiceGoogleMapDirections.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB5071BDF5E9E002DFDCE /* AIFServiceGoogleMapDirections.m */; };
 		5CB615D1DD3C69731F130180 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78209716EF926ABA434F57BF /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -79,7 +79,6 @@
 		09BBDCFE1BE7876C00E18061 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		09BBDCFF1BE7876C00E18061 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		09BBDD021BE78E7F00E18061 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		09BBDD031BE790CD00E18061 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		09BBDD051BE7941E00E18061 /* UIViewController+HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HUD.h"; sourceTree = "<group>"; };
 		09BBDD061BE7941E00E18061 /* UIViewController+HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HUD.m"; sourceTree = "<group>"; };
 		09BBDD081BE7948000E18061 /* NSDate+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Category.h"; sourceTree = "<group>"; };
@@ -155,6 +154,8 @@
 		09EFB5041BDF5E9E002DFDCE /* AIFServiceFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIFServiceFactory.m; sourceTree = "<group>"; };
 		09EFB5061BDF5E9E002DFDCE /* AIFServiceGoogleMapDirections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIFServiceGoogleMapDirections.h; sourceTree = "<group>"; };
 		09EFB5071BDF5E9E002DFDCE /* AIFServiceGoogleMapDirections.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIFServiceGoogleMapDirections.m; sourceTree = "<group>"; };
+		66F98E231C3E051000D09746 /* PublicDefineConf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublicDefineConf.h; sourceTree = "<group>"; };
+		66F98E241C3E05A600D09746 /* localDefineConf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = localDefineConf.h; sourceTree = "<group>"; };
 		78209716EF926ABA434F57BF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEA51B30960DB84E017B4CCA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		FCCFEF3ED29C3092AD9591B2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -277,7 +278,8 @@
 				09BBDCEC1BE77B5D00E18061 /* CTPersistanceConfiguration.plist */,
 				09EFB4961BDF595E002DFDCE /* main.m */,
 				09BBDD021BE78E7F00E18061 /* PrefixHeader.pch */,
-				09BBDD031BE790CD00E18061 /* Header.h */,
+				66F98E231C3E051000D09746 /* PublicDefineConf.h */,
+				66F98E241C3E05A600D09746 /* localDefineConf.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
