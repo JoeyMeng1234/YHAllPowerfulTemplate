@@ -252,7 +252,7 @@
 			isa = PBXGroup;
 			children = (
 			);
-			name = Resource;
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		09BBDD011BE78D8100E18061 /* Class */ = {
