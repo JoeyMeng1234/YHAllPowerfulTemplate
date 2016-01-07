@@ -1,9 +1,10 @@
 //
 //  UIImage+Cut.h
-//  mohu
+//  YHAllPowerfulTemplate
 //
-//  Created by 沐汐 on 14-10-6.
-//  Copyright (c) 2014年 沐汐. All rights reserved.
+//  Created by 王英辉 on 15/10/27.
+//  Copyright © 2015年 book. All rights reserved.
+//
 //  手机屏幕截图，图片指定区域截图：
 //
 //

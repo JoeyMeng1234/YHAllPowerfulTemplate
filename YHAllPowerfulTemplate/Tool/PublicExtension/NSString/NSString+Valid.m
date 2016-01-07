@@ -19,7 +19,6 @@
     
     NSPredicate *predicate = [NSPredicate predicateWithFormat:@"SELF matches %@", match];
     
-    
     return [predicate evaluateWithObject:self];
     
 }

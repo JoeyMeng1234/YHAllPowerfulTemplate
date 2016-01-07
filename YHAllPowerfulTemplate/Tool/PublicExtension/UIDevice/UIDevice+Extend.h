@@ -1,11 +1,10 @@
 //
 //  UIDevice+Extend.h
-//  CoreCategory
+//  YHAllPowerfulTemplate
 //
-//  Created by 成林 on 15/5/6.
-//  Copyright (c) 2015年 沐汐. All rights reserved.
+//  Created by 王英辉 on 15/10/27.
+//  Copyright © 2015年 book. All rights reserved.
 //
-
 #import <UIKit/UIKit.h>
 
 //ios系统版本

@@ -1,9 +1,9 @@
 //
 //  UITableViewCell+Extend.m
-//  Carpenter
+//  YHAllPowerfulTemplate
 //
-//  Created by 冯成林 on 15/4/29.
-//  Copyright (c) 2015年 冯成林. All rights reserved.
+//  Created by 王英辉 on 15/10/27.
+//  Copyright © 2015年 book. All rights reserved.
 //
 
 #import "UITableViewCell+Extend.h"

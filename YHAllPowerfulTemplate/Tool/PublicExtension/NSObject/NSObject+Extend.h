@@ -1,9 +1,9 @@
 //
 //  NSObject+Address.h
-//  网易彩票2014MJ版
+//  YHAllPowerfulTemplate
 //
-//  Created by muxi on 14-9-23.
-//  Copyright (c) 2014年 沐汐. All rights reserved.
+//  Created by 王英辉 on 15/10/27.
+//  Copyright © 2015年 book. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

@@ -1,9 +1,10 @@
 //
 //  UIFont+Extend.h
-//  Wifi
+//  YHAllPowerfulTemplate
 //
-//  Created by muxi on 14/12/1.
-//  Copyright (c) 2014年 muxi. All rights reserved.
+//  Created by 王英辉 on 15/10/27.
+//  Copyright © 2015年 book. All rights reserved.
+//
 //  字体扩展
 //
 //  注：本类的主要目的是为了引入常用的web字体

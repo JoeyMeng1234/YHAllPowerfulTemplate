@@ -1,10 +1,10 @@
 //
 //  UIImage+Water.h
-//  CoreCategory
+//  YHAllPowerfulTemplate
 //
-//  Created by 冯成林 on 15/4/21.
-//  Copyright (c) 2015年 沐汐. All rights reserved.
-//  图片加水印
+//  Created by 王英辉 on 15/10/27.
+//  Copyright © 2015年 book. All rights reserved.
+//
 
 #import <UIKit/UIKit.h>
 
