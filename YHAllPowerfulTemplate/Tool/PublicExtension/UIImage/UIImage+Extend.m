@@ -7,7 +7,6 @@
 //
 
 #import "UIImage+Extend.h"
-#import "CoreConst.h"
 #import <objc/runtime.h>
 
 static const void *CompleteBlockKey = &CompleteBlockKey;
