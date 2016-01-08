@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "AppDelegate+jPush.h"
+#import "AppDelegate+UMeng.h"
 
 @interface AppDelegate ()
 
@@ -19,7 +20,11 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
+    // 1.添加jPush
     [self addjPushWithapplication:application didFinishLaunchingWithOptions:launchOptions];
+    
+    // 2.添加UMeng
+    [self addUMengWithapplication:application didFinishLaunchingWithOptions:launchOptions];
     
     return YES;
 }

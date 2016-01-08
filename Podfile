@@ -9,5 +9,4 @@ pod 'Aspects'
 pod 'ReactiveCocoa'
 pod 'CTPersistance', '~> 0.1.12'
 pod 'MBProgressHUD', '~> 0.9.1'
-
-
+pod 'UMengSocial', '~> 4.3'
