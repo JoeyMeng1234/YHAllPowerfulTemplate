@@ -69,6 +69,15 @@
 		66F98E811C3E68C700D09746 /* UIViewController+DismissKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F98E651C3E68C700D09746 /* UIViewController+DismissKeyboard.m */; };
 		66F98E821C3E68C700D09746 /* UIViewController+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F98E671C3E68C700D09746 /* UIViewController+HUD.m */; };
 		66F98E831C3E68C700D09746 /* UIWindow+Launch.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F98E6A1C3E68C700D09746 /* UIWindow+Launch.m */; };
+		66F98E8B1C3E82C100D09746 /* libPushSDK-1.8.5.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F98E8A1C3E82C100D09746 /* libPushSDK-1.8.5.a */; };
+		66F98E9D1C3E82EF00D09746 /* AppDelegate+jPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F98E981C3E82EF00D09746 /* AppDelegate+jPush.m */; };
+		66F98E9E1C3E82EF00D09746 /* YHBasejPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F98E9A1C3E82EF00D09746 /* YHBasejPush.m */; };
+		66F98E9F1C3E82EF00D09746 /* YHjPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F98E9C1C3E82EF00D09746 /* YHjPush.m */; };
+		66F98EA11C3E832100D09746 /* PushConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 66F98EA01C3E832100D09746 /* PushConfig.plist */; };
+		66F98EA51C3E89DD00D09746 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F98EA41C3E89DD00D09746 /* SystemConfiguration.framework */; };
+		66F98EA71C3E89F200D09746 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F98EA61C3E89F200D09746 /* Security.framework */; };
+		66F98EA91C3E8A0900D09746 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F98EA81C3E8A0900D09746 /* libz.tbd */; };
+		66F98EAB1C3E8A1D00D09746 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F98EAA1C3E8A1D00D09746 /* CoreTelephony.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -216,6 +225,20 @@
 		66F98E671C3E68C700D09746 /* UIViewController+HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HUD.m"; sourceTree = "<group>"; };
 		66F98E691C3E68C700D09746 /* UIWindow+Launch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+Launch.h"; sourceTree = "<group>"; };
 		66F98E6A1C3E68C700D09746 /* UIWindow+Launch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+Launch.m"; sourceTree = "<group>"; };
+		66F98E891C3E82C100D09746 /* APService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APService.h; sourceTree = "<group>"; };
+		66F98E8A1C3E82C100D09746 /* libPushSDK-1.8.5.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libPushSDK-1.8.5.a"; sourceTree = "<group>"; };
+		66F98E971C3E82EF00D09746 /* AppDelegate+jPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+jPush.h"; sourceTree = "<group>"; };
+		66F98E981C3E82EF00D09746 /* AppDelegate+jPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+jPush.m"; sourceTree = "<group>"; };
+		66F98E991C3E82EF00D09746 /* YHBasejPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHBasejPush.h; sourceTree = "<group>"; };
+		66F98E9A1C3E82EF00D09746 /* YHBasejPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHBasejPush.m; sourceTree = "<group>"; };
+		66F98E9B1C3E82EF00D09746 /* YHjPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHjPush.h; sourceTree = "<group>"; };
+		66F98E9C1C3E82EF00D09746 /* YHjPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHjPush.m; sourceTree = "<group>"; };
+		66F98EA01C3E832100D09746 /* PushConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PushConfig.plist; path = ../../PushConfig.plist; sourceTree = "<group>"; };
+		66F98EA21C3E89C900D09746 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		66F98EA41C3E89DD00D09746 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		66F98EA61C3E89F200D09746 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		66F98EA81C3E8A0900D09746 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		66F98EAA1C3E8A1D00D09746 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		78209716EF926ABA434F57BF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEA51B30960DB84E017B4CCA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		FCCFEF3ED29C3092AD9591B2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -226,7 +249,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66F98EA51C3E89DD00D09746 /* SystemConfiguration.framework in Frameworks */,
+				66F98EAB1C3E8A1D00D09746 /* CoreTelephony.framework in Frameworks */,
+				66F98EA91C3E8A0900D09746 /* libz.tbd in Frameworks */,
+				66F98EA71C3E89F200D09746 /* Security.framework in Frameworks */,
 				09BBDCF11BE77F8B00E18061 /* libsqlite3.0.tbd in Frameworks */,
+				66F98E8B1C3E82C100D09746 /* libPushSDK-1.8.5.a in Frameworks */,
 				5CB615D1DD3C69731F130180 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +293,8 @@
 		09BBDD041BE7931300E18061 /* ThirdPartySDK */ = {
 			isa = PBXGroup;
 			children = (
+				66F98E961C3E82EF00D09746 /* jPushExtension */,
+				66F98E881C3E82C100D09746 /* jPushSDK */,
 			);
 			path = ThirdPartySDK;
 			sourceTree = "<group>";
@@ -497,6 +527,11 @@
 		3C592EE7A9721BA8B71057DF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				66F98EAA1C3E8A1D00D09746 /* CoreTelephony.framework */,
+				66F98EA81C3E8A0900D09746 /* libz.tbd */,
+				66F98EA61C3E89F200D09746 /* Security.framework */,
+				66F98EA41C3E89DD00D09746 /* SystemConfiguration.framework */,
+				66F98EA21C3E89C900D09746 /* CFNetwork.framework */,
 				09BBDCF01BE77F8B00E18061 /* libsqlite3.0.tbd */,
 				09BBDCEE1BE77F4200E18061 /* libsqlite3.tbd */,
 				78209716EF926ABA434F57BF /* libPods.a */,
@@ -703,6 +738,29 @@
 			path = UIWindow;
 			sourceTree = "<group>";
 		};
+		66F98E881C3E82C100D09746 /* jPushSDK */ = {
+			isa = PBXGroup;
+			children = (
+				66F98EA01C3E832100D09746 /* PushConfig.plist */,
+				66F98E891C3E82C100D09746 /* APService.h */,
+				66F98E8A1C3E82C100D09746 /* libPushSDK-1.8.5.a */,
+			);
+			path = jPushSDK;
+			sourceTree = "<group>";
+		};
+		66F98E961C3E82EF00D09746 /* jPushExtension */ = {
+			isa = PBXGroup;
+			children = (
+				66F98E971C3E82EF00D09746 /* AppDelegate+jPush.h */,
+				66F98E981C3E82EF00D09746 /* AppDelegate+jPush.m */,
+				66F98E991C3E82EF00D09746 /* YHBasejPush.h */,
+				66F98E9A1C3E82EF00D09746 /* YHBasejPush.m */,
+				66F98E9B1C3E82EF00D09746 /* YHjPush.h */,
+				66F98E9C1C3E82EF00D09746 /* YHjPush.m */,
+			);
+			path = jPushExtension;
+			sourceTree = "<group>";
+		};
 		9914358FDB37B67FEEAB276B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -781,6 +839,7 @@
 				TargetAttributes = {
 					09EFB4911BDF595E002DFDCE = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 36S92B4H94;
 					};
 					09EFB4AA1BDF595E002DFDCE = {
 						CreatedOnToolsVersion = 7.0;
@@ -821,6 +880,7 @@
 				09EFB4A51BDF595E002DFDCE /* LaunchScreen.storyboard in Resources */,
 				09EFB4A21BDF595E002DFDCE /* Assets.xcassets in Resources */,
 				09EFB4A01BDF595E002DFDCE /* Main.storyboard in Resources */,
+				66F98EA11C3E832100D09746 /* PushConfig.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -892,6 +952,8 @@
 				09EFB5151BDF5E9E002DFDCE /* AIFURLResponse.m in Sources */,
 				66F98E7D1C3E68C700D09746 /* UIResponder+Router.m in Sources */,
 				09EFB50C1BDF5E9E002DFDCE /* NSArray+AXNetworkingMethods.m in Sources */,
+				66F98E9E1C3E82EF00D09746 /* YHBasejPush.m in Sources */,
+				66F98E9D1C3E82EF00D09746 /* AppDelegate+jPush.m in Sources */,
 				66F98E831C3E68C700D09746 /* UIWindow+Launch.m in Sources */,
 				66F98E811C3E68C700D09746 /* UIViewController+DismissKeyboard.m in Sources */,
 				09EFB50B1BDF5E9E002DFDCE /* AIFUDIDGenerator.m in Sources */,
@@ -929,6 +991,7 @@
 				09EFB5121BDF5E9E002DFDCE /* UIDevice+IdentifierAddition.m in Sources */,
 				66F98E751C3E68C700D09746 /* UIColor+Extend.m in Sources */,
 				09EFB5171BDF5E9E002DFDCE /* AIFCachedObject.m in Sources */,
+				66F98E9F1C3E82EF00D09746 /* YHjPush.m in Sources */,
 				66F98E6D1C3E68C700D09746 /* NSArray+Extend.m in Sources */,
 				66F98E741C3E68C700D09746 /* NSString+Valid.m in Sources */,
 				09EFB50D1BDF5E9E002DFDCE /* NSDictionary+AXNetworkingMethods.m in Sources */,
@@ -1071,6 +1134,9 @@
 			baseConfigurationReference = FCCFEF3ED29C3092AD9591B2 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = YHAllPowerfulTemplate/PrefixHeader.pch;
 				INFOPLIST_FILE = YHAllPowerfulTemplate/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -1078,10 +1144,12 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/YHAllPowerfulTemplate",
+					"$(PROJECT_DIR)/YHAllPowerfulTemplate/ThirdPartySDK/jPushSDK",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jksoft.cn.YHAllPowerfulTemplate;
+				PRODUCT_BUNDLE_IDENTIFIER = kingvic.cn.iDarts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+				PROVISIONING_PROFILE = "6c69d98d-5707-4ede-a5e2-4ad6e21f280b";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/** $(SRCROOT)/ThirdPartySDK/jPushSDK";
 			};
 			name = Debug;
 		};
@@ -1090,6 +1158,9 @@
 			baseConfigurationReference = EEA51B30960DB84E017B4CCA /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = YHAllPowerfulTemplate/PrefixHeader.pch;
 				INFOPLIST_FILE = YHAllPowerfulTemplate/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -1097,10 +1168,12 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/YHAllPowerfulTemplate",
+					"$(PROJECT_DIR)/YHAllPowerfulTemplate/ThirdPartySDK/jPushSDK",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jksoft.cn.YHAllPowerfulTemplate;
+				PRODUCT_BUNDLE_IDENTIFIER = kingvic.cn.iDarts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+				PROVISIONING_PROFILE = "6c69d98d-5707-4ede-a5e2-4ad6e21f280b";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/** $(SRCROOT)/ThirdPartySDK/jPushSDK";
 			};
 			name = Release;
 		};
