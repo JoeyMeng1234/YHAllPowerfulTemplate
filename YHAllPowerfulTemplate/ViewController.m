@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "UIViewController+mob.h"
+#include "UIViewController+WXPay.h"
 
 @interface ViewController ()
 
@@ -31,7 +32,15 @@
 - (void)share1:(UIButton *)button
 {
 //    [self share:button];
-    [self login:button];
+//    [self login:button];
+    
+    
+    NSString *res = [self jumpToBizPay];
+    if( ![@"" isEqual:res] ){
+        UIAlertView *alter = [[UIAlertView alloc] initWithTitle:@"支付失败" message:res delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+        
+        [alter show];
+    }
 }
 
 - (void)didReceiveMemoryWarning {
