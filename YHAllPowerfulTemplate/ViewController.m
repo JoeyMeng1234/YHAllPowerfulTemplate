@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UIViewController+mob.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    UIButton *button = [[UIButton alloc] init];
+    button.frame = CGRectMake(100, 100, 100, 50);
+    button.backgroundColor = [UIColor grayColor];
+    [button setTitle:@"分享" forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(share1:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
+    
+}
+
+- (void)share1:(UIButton *)button
+{
+//    [self share:button];
+    [self login:button];
 }
 
 - (void)didReceiveMemoryWarning {
