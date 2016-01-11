@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "AppDelegate+jPush.h"
+#import "AppDelegate+mob.h"
 
 @interface AppDelegate ()
 
@@ -20,6 +21,9 @@
     // Override point for customization after application launch.
     
     [self addjPushWithapplication:application didFinishLaunchingWithOptions:launchOptions];
+    
+    //
+    [self addMobWithapplication:application didFinishLaunchingWithOptions:launchOptions];
     
     return YES;
 }

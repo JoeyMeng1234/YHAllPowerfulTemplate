@@ -60,24 +60,18 @@ install_resource()
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "IQKeyboardManager/IQKeyBoardManager/Resources/IQKeyboardManager.bundle"
   install_resource "MJRefresh/MJRefresh/MJRefresh.bundle"
-  install_resource "ShareSDK2/ShareSDK/Core/Resource.bundle"
-  install_resource "ShareSDK2/ShareSDK/Core/zh-Hans.lproj"
-  install_resource "ShareSDK2/ShareSDK/Core/en.lproj"
-  install_resource "ShareSDK2/ShareSDK/Extend/QQConnectSDK/TencentOpenApi_IOS_Bundle.bundle"
-  install_resource "ShareSDK2/ShareSDK/Extend/SinaWeiboSDK/WeiboSDK.bundle"
-  install_resource "ShareSDK2/ShareSDK/UI/ShareSDKFlatShareViewUI.bundle"
-  install_resource "ShareSDK2/ShareSDK/UI/ShareSDKiPadDefaultShareViewUI.bundle"
+  install_resource "ShareSDK3/libraries/extends/QQSDK/TencentOpenApi_IOS_Bundle.bundle"
+  install_resource "ShareSDK3/libraries/extends/SinaWeiboSDK/WeiboSDK.bundle"
+  install_resource "ShareSDK3/libraries/ShareSDKUI.bundle"
+  install_resource "ShareSDK3/libraries/ShareSDK.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "IQKeyboardManager/IQKeyBoardManager/Resources/IQKeyboardManager.bundle"
   install_resource "MJRefresh/MJRefresh/MJRefresh.bundle"
-  install_resource "ShareSDK2/ShareSDK/Core/Resource.bundle"
-  install_resource "ShareSDK2/ShareSDK/Core/zh-Hans.lproj"
-  install_resource "ShareSDK2/ShareSDK/Core/en.lproj"
-  install_resource "ShareSDK2/ShareSDK/Extend/QQConnectSDK/TencentOpenApi_IOS_Bundle.bundle"
-  install_resource "ShareSDK2/ShareSDK/Extend/SinaWeiboSDK/WeiboSDK.bundle"
-  install_resource "ShareSDK2/ShareSDK/UI/ShareSDKFlatShareViewUI.bundle"
-  install_resource "ShareSDK2/ShareSDK/UI/ShareSDKiPadDefaultShareViewUI.bundle"
+  install_resource "ShareSDK3/libraries/extends/QQSDK/TencentOpenApi_IOS_Bundle.bundle"
+  install_resource "ShareSDK3/libraries/extends/SinaWeiboSDK/WeiboSDK.bundle"
+  install_resource "ShareSDK3/libraries/ShareSDKUI.bundle"
+  install_resource "ShareSDK3/libraries/ShareSDK.bundle"
 fi
 
 mkdir -p "${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
