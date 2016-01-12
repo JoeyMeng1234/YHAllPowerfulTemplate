@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "AppDelegate+jPush.h"
 #import "AppDelegate+mob.h"
+#import "AppDelegate+WXPay.h"
 
 @interface AppDelegate ()
 
@@ -20,12 +21,42 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
+    // 添加jPush
     [self addjPushWithapplication:application didFinishLaunchingWithOptions:launchOptions];
     
-    //
+    // 添加mob
     [self addMobWithapplication:application didFinishLaunchingWithOptions:launchOptions];
     
+    // 添加微信支付
+    [self addWXPayWithapplication:application didFinishLaunchingWithOptions:launchOptions];
+    
     return YES;
+}
+
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
+    
+    return [self WXPayWithApplication:application handleOpenURL:url];
+}
+
+// 内存清理
+- (void)applicationDidReceiveMemoryWarning:(UIApplication *)application
+{
+    SDWebImageManager *manager = [SDWebImageManager sharedManager];
+    
+    /**
+     *  取消下载
+     */
+    [manager cancelAll];
+    
+    /**
+     *  清除内存中所有图片
+     */
+    [manager.imageCache clearMemory];
+}
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    
+    return [self WXPayWithApplication:application openURL:url sourceApplication:sourceApplication annotation:annotation];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

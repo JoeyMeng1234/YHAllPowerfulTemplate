@@ -44,6 +44,8 @@
 		09EFB5201BDF5E9E002DFDCE /* AIFServiceGoogleMapDirections.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EFB5071BDF5E9E002DFDCE /* AIFServiceGoogleMapDirections.m */; };
 		5CB615D1DD3C69731F130180 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78209716EF926ABA434F57BF /* libPods.a */; };
 		66B116661C40A4BD002B94F8 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66B116651C40A4BD002B94F8 /* Launch Screen.storyboard */; };
+		66B116691C4393A3002B94F8 /* AppDelegate+WXPay.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B116681C4393A3002B94F8 /* AppDelegate+WXPay.m */; };
+		66B1166C1C439C51002B94F8 /* UIViewController+WXPay.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B1166B1C439C51002B94F8 /* UIViewController+WXPay.m */; };
 		66CFF8B71C3FBD5700FCD175 /* AppDelegate+mob.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CFF8B61C3FBD5700FCD175 /* AppDelegate+mob.m */; };
 		66CFF8BA1C3FD0E700FCD175 /* UIViewController+mob.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CFF8B91C3FD0E700FCD175 /* UIViewController+mob.m */; };
 		66F98E6B1C3E68C700D09746 /* CALayer+Anim.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F98E2D1C3E68C700D09746 /* CALayer+Anim.m */; };
@@ -174,6 +176,10 @@
 		09EFB5061BDF5E9E002DFDCE /* AIFServiceGoogleMapDirections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIFServiceGoogleMapDirections.h; sourceTree = "<group>"; };
 		09EFB5071BDF5E9E002DFDCE /* AIFServiceGoogleMapDirections.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIFServiceGoogleMapDirections.m; sourceTree = "<group>"; };
 		66B116651C40A4BD002B94F8 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		66B116671C4393A3002B94F8 /* AppDelegate+WXPay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+WXPay.h"; sourceTree = "<group>"; };
+		66B116681C4393A3002B94F8 /* AppDelegate+WXPay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+WXPay.m"; sourceTree = "<group>"; };
+		66B1166A1C439C51002B94F8 /* UIViewController+WXPay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+WXPay.h"; path = "YHAllPowerfulTemplate/UIViewController+WXPay.h"; sourceTree = SOURCE_ROOT; };
+		66B1166B1C439C51002B94F8 /* UIViewController+WXPay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+WXPay.m"; path = "YHAllPowerfulTemplate/UIViewController+WXPay.m"; sourceTree = SOURCE_ROOT; };
 		66CFF8B51C3FBD5700FCD175 /* AppDelegate+mob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+mob.h"; sourceTree = "<group>"; };
 		66CFF8B61C3FBD5700FCD175 /* AppDelegate+mob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+mob.m"; sourceTree = "<group>"; };
 		66CFF8B81C3FD0E700FCD175 /* UIViewController+mob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+mob.h"; path = "YHAllPowerfulTemplate/UIViewController+mob.h"; sourceTree = SOURCE_ROOT; };
@@ -340,6 +346,8 @@
 				09EFB4991BDF595E002DFDCE /* AppDelegate.m */,
 				66CFF8B51C3FBD5700FCD175 /* AppDelegate+mob.h */,
 				66CFF8B61C3FBD5700FCD175 /* AppDelegate+mob.m */,
+				66B116671C4393A3002B94F8 /* AppDelegate+WXPay.h */,
+				66B116681C4393A3002B94F8 /* AppDelegate+WXPay.m */,
 				09BBDCF41BE782C100E18061 /* CTViewControllerIntercepter.h */,
 				09BBDCF51BE782C100E18061 /* CTViewControllerIntercepter.m */,
 				09EFB49B1BDF595E002DFDCE /* ViewController.h */,
@@ -560,6 +568,8 @@
 			children = (
 				66CFF8B81C3FD0E700FCD175 /* UIViewController+mob.h */,
 				66CFF8B91C3FD0E700FCD175 /* UIViewController+mob.m */,
+				66B1166A1C439C51002B94F8 /* UIViewController+WXPay.h */,
+				66B1166B1C439C51002B94F8 /* UIViewController+WXPay.m */,
 			);
 			path = LocalExtension;
 			sourceTree = "<group>";
@@ -1007,8 +1017,10 @@
 				09EFB50A1BDF5E9E002DFDCE /* AIFSignatureGenerator.m in Sources */,
 				09EFB5181BDF5E9E002DFDCE /* AIFCityListManager.m in Sources */,
 				66F98E701C3E68C700D09746 /* NSDateFormatter+Category.m in Sources */,
+				66B1166C1C439C51002B94F8 /* UIViewController+WXPay.m in Sources */,
 				09EFB49D1BDF595E002DFDCE /* ViewController.m in Sources */,
 				66F98E761C3E68C700D09746 /* UIDevice+Extend.m in Sources */,
+				66B116691C4393A3002B94F8 /* AppDelegate+WXPay.m in Sources */,
 				09EFB5081BDF5E9E002DFDCE /* AIFCommonParamsGenerator.m in Sources */,
 				66F98E781C3E68C700D09746 /* UIImage+Color.m in Sources */,
 				66F98E6B1C3E68C700D09746 /* CALayer+Anim.m in Sources */,
