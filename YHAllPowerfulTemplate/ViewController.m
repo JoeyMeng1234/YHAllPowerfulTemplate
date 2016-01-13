@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "UIViewController+mob.h"
 #include "UIViewController+WXPay.h"
+#import "UIViewController+AliPay.h"
 
 @interface ViewController ()
 
@@ -35,12 +36,14 @@
 //    [self login:button];
     
     
-    NSString *res = [self jumpToBizPay];
-    if( ![@"" isEqual:res] ){
-        UIAlertView *alter = [[UIAlertView alloc] initWithTitle:@"支付失败" message:res delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
-        
-        [alter show];
-    }
+//    NSString *res = [self jumpToBizPay];
+//    if( ![@"" isEqual:res] ){
+//        UIAlertView *alter = [[UIAlertView alloc] initWithTitle:@"支付失败" message:res delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+//        
+//        [alter show];
+//    }
+    [self aliPay];
+    
 }
 
 - (void)didReceiveMemoryWarning {

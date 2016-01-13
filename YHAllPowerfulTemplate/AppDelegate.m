@@ -10,6 +10,7 @@
 #import "AppDelegate+jPush.h"
 #import "AppDelegate+mob.h"
 #import "AppDelegate+WXPay.h"
+#import "AppDelegate+AliPay.h"
 
 @interface AppDelegate ()
 
@@ -38,6 +39,31 @@
     return [self WXPayWithApplication:application handleOpenURL:url];
 }
 
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    
+    if ([annotation isEqualToString:@"com.tencent.xin"]) {
+        
+        //微信支付回调
+        return [self WXPayWithApplication:application openURL:url sourceApplication:sourceApplication annotation:annotation];
+        
+    }else if ([annotation isEqualToString:@"com.alipay.iphoneclient"]) {
+        
+        // 支付宝支付回调
+        [self AliPayWithApplication:application openURL:url sourceApplication:sourceApplication annotation:annotation];
+    }else if ([sourceApplication isEqualToString:@"com.alipay.iphoneclient"]) {
+        
+        // 支付宝支付回调
+        [self AliPayWithApplication:application openURL:url sourceApplication:sourceApplication annotation:annotation];
+        
+    }else if ([sourceApplication isEqualToString:@"com.tencent.xin"]) {
+        
+        // 微信支付回调
+        return [self WXPayWithApplication:application openURL:url sourceApplication:sourceApplication annotation:annotation];
+    }
+
+    return YES;
+}
+
 // 内存清理
 - (void)applicationDidReceiveMemoryWarning:(UIApplication *)application
 {
@@ -52,11 +78,6 @@
      *  清除内存中所有图片
      */
     [manager.imageCache clearMemory];
-}
-
-- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
-    
-    return [self WXPayWithApplication:application openURL:url sourceApplication:sourceApplication annotation:annotation];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
